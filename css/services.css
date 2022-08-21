@@ -1,0 +1,57 @@
+section.services{
+    padding-bottom: 80px;
+}
+section.services>div.container>div.title{
+    padding: 30px 0;
+}
+section.services>div.container>div.title>h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #001F8D;
+}
+section.services>div.container>div.title>h2:after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 20px ;
+    width: 50px;
+    height: 3px;
+    background: blue;
+    margin: 0 auto;
+}
+
+section.services>div.container>div.row{
+    border-radius: 0;
+}
+section.services>div.container>div.row>div.col-lg-4>div.card>div.card-img{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+section.services>div.container>div.row>div.col-lg-4>div.card>div.card-img>img{
+    transition: all 200ms linear;
+}
+section.services>div.container>div.row>div.col-lg-4>div.card>h3{
+    padding: 10px 30px;
+    margin-bottom: 5px;
+}
+section.services>div.container>div.row>div.col-lg-4>div.card>h3>a{
+    text-decoration: none;
+    color: #001F8D;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 200ms linear;
+}
+
+section.services>div.container>div.row>div.col-lg-4>div.card>p{
+    padding: 0 30px;
+}
+section.services>div.container>div.row>div.col-lg-4:hover>div.card>div.card-img>img{
+    transform: scale(1.1);
+}
+section.services>div.container>div.row>div.col-lg-4:hover>div.card>h3>a{
+    color: blue;
+}

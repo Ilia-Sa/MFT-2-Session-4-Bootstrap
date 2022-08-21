@@ -1,0 +1,23 @@
+section.featured{
+    padding: 80px 0;
+}
+section.featured>div.container>div.row:nth-of-type(2), section.featured>div.container>div.row:nth-of-type(3), section.featured>div.container>div.row:nth-of-type(4){
+    margin-top: 100px;
+}
+section.featured>div.container>div.row>div.col-md-7>h3{
+    color: #001F8D;
+    font-weight: 600;
+}
+section.featured>div.container>div.row:nth-of-type(1)>div.col-md-7>p{
+    font-style: italic;
+}
+section.featured>div.container>div.row>div.col-md-7>ul{
+    list-style: none;
+    padding-left: 0;
+}
+section.featured>div.container>div.row>div.col-md-7>ul>li{
+    padding-bottom: 10px;
+}
+section.featured>div.container>div.row>div.col-md-7>ul>li>i{
+    color: blue;
+}

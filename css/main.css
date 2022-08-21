@@ -1,0 +1,36 @@
+/* header */
+@import "header.css";
+/* end of header */
+/* parallax */
+@import "parallax.css";
+/* end of parallax */
+/* delivery */
+@import "delivery.css";
+/* end of delivery */
+/* about */
+@import "about.css";
+/* end of about */
+/* services */
+@import "services.css";
+/* end of services */
+/* action */
+@import "action.css";
+/* end of action */
+/* feature */
+@import "feature.css";
+/* end of feature */
+/* pricing */
+@import "pricing.css";
+/* end of pricing */
+/* swiper */
+@import "swiper.css";
+/* end of swiper */
+/* reviews */
+@import "reviews.css";
+/* end of reviews */
+/* FAQ */
+@import "faq.css";
+/* end of FAQ */
+/* footer */
+@import "footer.css";
+/* end of footer */

@@ -1,0 +1,34 @@
+nav.navbar{
+    padding: 20px 0 !important;
+    background-color: rgba(14, 29, 52, 0.8);
+}
+ul.navbar-nav>li{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    align-content: center;
+}
+ul.navbar-nav>li#quote{
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 0 20px;
+    background-color: #0D42FF;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    transition: all 300ms linear;
+}
+ul.navbar-nav>li#quote>a{
+    color: white;
+}
+ul.navbar-nav>li#quote:hover{
+    background-color: #3863ff;
+}
+a.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+div#collapsibleNavbar{
+    height: auto;
+}

@@ -1,0 +1,35 @@
+section.action{
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+@media (min-width: 1365px) {
+    section.action {
+        background-attachment: fixed;
+    }
+}
+section.action>div.container>div.row>div.col-lg-8>h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+section.action>div.container>div.row>div.col-lg-8>p{
+    color: #fff;
+}
+section.action>div.container>div.row>div.col-lg-8>a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 300ms;
+    border: 2px solid #fff;
+    color: #fff;
+}
+section.action>div.container>div.row>div.col-lg-8>a:hover{
+    background-color: #0D42FFFF;
+    border: 2px solid #0D42FFFF;
+}

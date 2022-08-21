@@ -1,0 +1,37 @@
+section.about{
+    padding-bottom: 80px;
+}
+section.about>div.container>div.row>div.content{
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+section.about>div.container>div.row>div.content>h3{
+    color: #001F8D;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+section.about>div.container>div.row>div.content>p{
+    margin-bottom: 16px;
+}
+section.about>div.container>div.row>div.content>ul{
+    list-style: none;
+    padding: 0 !important;
+}
+section.about>div.container>div.row>div.content>ul>li{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+section.about>div.container>div.row>div.content>ul>li>i{
+    font-size: 48px;
+    margin-right: 20px;
+    color: blue;
+}
+section.about>div.container>div.row>div.content>ul>li>div>h5, section.about>div.container>div.row>div.content>ul>li>div>p{
+    color: #132848;
+}
+section.about>div.container>div.row>div.content>ul>li>div>p{
+    margin: 0 !important;
+}
